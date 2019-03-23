@@ -46,8 +46,8 @@ With Setprefix Command!
 
 =========================================
 
-1.setprefix Use To Setprefix
+1.setprefix % Use To Setprefix
 
-2.test This will send a message to that channel
+2.test % This will send a message to that channel
 
 =========================================
