@@ -7,7 +7,7 @@ client.on('ready', () => { //When the cilent is ready
     console.log(`Logged in as ${client.user.tag}!`); //Log that who is logon to that cilent
   });
 
-client.on("message", async msg => {  //Set Prefix Command + on message recive
+client.on("message", msg => {  //Set Prefix Command + on message recive
 
     if(msg.author.bot) return; //If the message author is a bot then return
     if(msg.channel.type === "dm") return; //If The Message Type = DM then return
