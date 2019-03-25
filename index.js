@@ -15,7 +15,7 @@ client.on("message", async msg => {  //Set Prefix Command + on message recive
     let prefixes = JSON.parse(fs.readFileSync("./prefixes.json", "utf8")); //Read File
     if(!prefixes[msg.guild.id]){  //If there is no string that is startwith prefixes[msg.guild.id]
        prefixes[msg.guild.id] = { //Let prefixes[msg.guild.id] be
-        prefix: config.DEFAULT_PREFIX //Prefix = Default Prefix Which is on confis.json
+        prefix: config.DEFAULT_PREFIX //Prefix = Default Prefix Which is on confiฌ.json
        }
     }
 
